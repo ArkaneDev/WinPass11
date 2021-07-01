@@ -105,7 +105,7 @@ namespace winPass11_guided_install
             switch (progress)
             {
                 case 0:
-                    richTextBox1.Text = "If you have previously installed Windows 11 using WinPass11 or attempted to, you should probably click this button. If not, it doesn't hurt to click it regardless.";
+                    richTextBox1.Text = "If you have previously installed Windows 11 using WinPass11, attempted to, or are coming back from restarting, you should probably click this button. If not, it doesn't hurt to click it regardless.";
                     label1.Text = "Clean Previous Installations >";
                     pictureBox1.ImageLocation = "https://cdn.discordapp.com/attachments/859934909607313428/859962905813581884/Updates.png";
                     button1.Text = "Clean";
